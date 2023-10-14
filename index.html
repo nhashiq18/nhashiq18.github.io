@@ -1,0 +1,1378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Start your development with Steller landing page.">
+    <meta name="author" content="Devcrud">
+    <title>Md Nahid Hasan | Portfolio</title>
+    <!-- font icons -->
+    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Bootstrap + Steller main styles -->
+    <link rel="stylesheet" href="assets/css/steller.css">
+
+    <style>
+        /* Add this to your CSS stylesheet */
+        /* Add this to your CSS stylesheet */
+        .blog-post {
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            padding: 30px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .blog-post:hover {
+            transform: translateY(-5px);
+            box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .blog-post-header {
+            margin-bottom: 15px;
+        }
+
+        .blog-post-title {
+            font-size: 28px;
+            margin: 0;
+            color: #333;
+        }
+
+        .blog-post-meta {
+            color: #888;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+        }
+
+        .meta-item {
+            margin-right: 20px;
+        }
+
+        .logo-icon {
+            font-size: 16px;
+            margin-right: 6px;
+            color: #3498db;
+        }
+
+        .blog-post-caption {
+            font-size: 18px;
+            line-height: 1.6;
+            color: #555;
+            margin-bottom: 20px;
+        }
+
+        .blog-post-image img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Add this to your CSS stylesheet */
+        .blog-post-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .blog-post-gallery img {
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .blog-post-gallery img:hover {
+            transform: scale(1.05);
+            box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .blog-post-gallery {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            /* Change this line to create a 2-column layout */
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        #rp {
+            background-color: #f9f9f9;
+            padding: 60px 0;
+        }
+
+        .rp-heading {
+            font-size: 32px;
+            margin-bottom: 30px;
+            color: #333;
+        }
+
+        .rp-subheading {
+            font-size: 20px;
+            margin-bottom: 50px;
+            color: #555;
+        }
+
+        .rp-item {
+            margin-bottom: 40px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: left;
+        }
+
+        .rp-title {
+            font-size: 24px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .rp-description {
+            font-size: 16px;
+            color: #555;
+        }
+
+        .rp-time {
+            font-size: 16px;
+            color: #555;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        /* Set the max-height of carousel images */
+        .carousel-inner .carousel-item img {
+            max-height: 70vh;
+            /* Adjust the height as needed */
+            width: auto;
+            margin: auto;
+        }
+
+        .research-icons {
+            list-style: none;
+            padding: 0;
+        }
+
+        .research-icons li {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .icon {
+            font-size: 24px;
+            color: #3498db;
+            margin-right: 10px;
+            transition: transform 0.3s;
+        }
+
+        .icon:hover {
+            transform: scale(1.2);
+        }
+    </style>
+
+
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+
+    <!-- Page navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" data-spy="affix" data-offset-top="0">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="assets/imgs/logo.svg" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Welcome</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#publications">Publications</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#rp">Researches & Projects</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="#certficates">Certificates</a>
+                    </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#blog">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn rounded ml-4 blog" style="background-color: #ff7a57; color: black"
+                            href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End of page navibation -->
+
+    <!-- Page Header -->
+    <header class="header" id="home">
+        <div class="container">
+            <div class="infos">
+                <h6 class="subtitle">Welcome,I'm</h6>
+                <h6 class="title">Md Nahid Hasan</h6>
+                <p style="font-size: 18px;">Full Stack Software Engineer at <a style="text-decoration: none;" target="_blank"
+                        href="https://www.bdjobs.com/">Bdjobs.com Ltd</a></p>
+                <div class="buttons pt-2">
+                    <button class="btn btn-dark rounded">DOWNLOAD CV</button>
+                </div>
+                <div>
+                    <p class="mt-4 ml-2" style="font-size: 14px;"><i>Connect with me</i></p>
+                </div>
+                <div class="socials">
+                    <a target="_blank" class="social-item" href="https://www.linkedin.com/in/nhashiq18/"><i
+                            class="ti-linkedin"></i></a>
+                    <a target="_blank" class="social-item" href="https://github.com/nhashiq18"><i
+                            class="ti-github"></i></a>
+                    <a target="_blank" class="social-item" href="https://twitter.com/nhashiq18"><i
+                            class="ti-twitter"></i></a>
+                </div>
+                <div>
+                    <h3>Research Interest</h3>
+                </div>
+            </div>
+            <!-- <div class="img-holder">
+                <img src="assets/imgs/man.svg" alt="">
+            </div>       -->
+
+        </div>
+
+        <!-- Header-widget -->
+        <div class="widget">
+            <div class="widget-item">
+                <p>Software Engineering</p>
+            </div>
+            <div class="widget-item">
+                <p>NLP</p>
+            </div>
+            <div class="widget-item">
+                <p>Artificial Intellengece</p>
+            </div>
+            <div class="widget-item">
+                <p>Machine Learning</p>
+            </div>
+        </div>
+    </header>
+    <!-- End of Page Header -->
+
+    <!-- About section -->
+    <section id="about" class="section mt-3">
+        <div class="container mt-5">
+            <div class="row text-center text-md-left">
+                <div class="col-md-3">
+                    <img src="assets/imgs/ashiq.png" alt="" class="img-thumbnail mb-4">
+                </div>
+                <div class="pl-md-4 col-md-9">
+                    <h6 class="title">Md Nahid Hasan</h6>
+                    <p class="subtitle">B.Sc Computer Science and Engineering</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, pariatur, aperiam aut autem
+                        voluptas odit. Odio ducimus delectus totam sed aliquam sequi praesentium mollitia, illum
+                        repudiandae quidem quod, magni magnam.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, eius, nam. Quo praesentium qui
+                        temporibus voluptatum, facilis aliquid eligendi fugiat beatae neque inventore non. Laborum
+                        repellendus consequatur ullam voluptatum asperiores. Lorem, ipsum dolor sit amet consectetur
+                        adipisicing elit. Magni quisquam error accusamus, asperiores libero quis esse veritatis dolorum,
+                        maiores officiis quo vero quasi possimus atque, eius animi voluptas aut reiciendis. Lorem ipsum
+                        dolor sit amet, consectetur adipisicing elit. Praesentium id consequuntur eaque eius quia est
+                        dolorem blanditiis rerum? Esse, odio!
+                    </p>
+                </div>
+                <div class="pl-md-4 col-md-11">
+                    <div>
+                        <h3 class="mt-2" style="color: #ff7a57;">Professional Experience</h3>
+                        <hr>
+                        <div><b>Trainee Software Engineer / Cloud Architect</b></div>
+                        <p>Bdjobs.com Ltd<small>(May 2023 - Present)</small> <br>
+                            <small><i class="fa-solid fa-location-dot"></i> 8th Floor - BDBL Building - 12, C/A, Dhaka
+                                1215, Bangladesh</small>
+                        </p>
+                        <p style="font-size: 15px;">During my tenure as a Trainee Software Engineer and Cloud Engineer
+                            at Bdjobs.com Ltd, I have had the opportunity to acquire invaluable experience and cultivate
+                            vital skills in software development and cloud computing. Throughout my journey, I have been
+                            an active contributor to the company's achievements, actively engaging in diverse projects
+                            and harnessing my technical expertise to drive success.</p>
+                        <p><b>Skills:</b> Google Cloud Platform (GCP), C#, ASP.NET Core, Entity Framework Core, Cloud
+                            Architecture, React.js, Node.js, JavaScript, MongoDB,
+                            PostgreSQL, Django, Flask, Python</p>
+                    </div>
+                    <div class="mt-5">
+                        <h3 class="mt-2" style="color: #ff7a57;">Academic Qualifications</h3>
+                        <hr>
+                        <div class="mt-2">
+                            <div>
+                                <h4>B.Sc in Computer Science and Engineering</h4>
+                            </div>
+                            <p>East West University <small>(January 2019 - May 2023)</small> <br>
+                                <small><i class="fa-solid fa-location-dot"></i> A, 2 Jahurul Islam Ave, Dhaka 1212,
+                                    Bangladesh</small> <br>
+                                <i><b>CGPA: </b></i>3.37 out of 4.00
+                            </p>
+                            <p style="font-size: 15px;">I completed my B.Sc. in Computer Science and Engineering at East
+                                West University, Dhaka, Bangladesh. This educational background has provided me with a
+                                strong foundation in computer science principles, programming languages, and engineering
+                                concepts. Throughout my studies, I gained a comprehensive understanding of software
+                                development methodologies, data structures, algorithms, database management systems, and
+                                networking. <br>
+                            </p>
+                        </div>
+                        <hr>
+                        <div class="mt-2">
+                            <div>
+                                <h4>Higher Secondary School Certificate(HSC)</h4>
+                            </div>
+                            <p>Govt. Shah Sultan College <small>(June 2015 - June 2017)</small> <br>
+                                <small><i class="fa-solid fa-location-dot"></i> Sherpur Road, Bogura, Bangladesh</small>
+                                <br>
+                                <i><b>GPA: </b></i>4.33 out of 5.00
+                            </p>
+                            <p style="font-size: 15px;">At Govt. Shah Sultan College in Bogura, Bangladesh, where I
+                                focused on the Science department, I achieved my Higher Secondary School Certificate
+                                (HSC). By reaching this academic milestone, I entered a crucial stage of my academic
+                                career when I dove into a thorough study of scientific subjects and gained a firm grasp
+                                of diverse scientific ideas.</p>
+                        </div>
+                        <hr>
+                        <div class="mt-2">
+                            <div>
+                                <h4>Secondary School Certificate(SSC)</h4>
+                            </div>
+                            <p>Faizullah High School <small>(January 2019 - April 2015)</small> <br>
+                                <small><i class="fa-solid fa-location-dot"></i> Latifpur, Bogura, Bangladesh</small>
+                                <br>
+                                <i><b>GPA: </b></i>5.00 out of 5.00
+                            </p>
+                            <p style="font-size: 15px;">I finished my SSC in Faizullah High School in Bogura,
+                                Bangladesh, focusing on Science. It established a solid basis for my academic path and
+                                sparked my interest in scientific research.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Service section -->
+    <section id="skills" class="section">
+        <div class="container text-center">
+            <h6 class="subtitle">Skills</h5>
+                <h5 class="section-title mb-4">Academic & Professional
+            </h6>
+            <p class="mb-5 pb-4">Through my academic accomplishments and practical work experiences, I have built a
+                solid foundation in Computer Science and Engineering (CSE), which has given me the confidence to take on
+                challenging technical challenges and contribute to innovative solutions.</p>
+            <div class="mt-2">
+                <h4 style="color: #ff7a57;">Core Competencies</h4>
+                <div class="row mt-3">
+                    <div class="col-sm-6 col-md-3 mb-4">
+                        <div class="custom-card card border">
+                            <div class="card-body" style="height: 200px; width: 250px">
+                                <i class="fa-solid fa-book"></i>
+                                <h5>Data Structure and Algorithm</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3 mb-4">
+                        <div class="custom-card card border">
+                            <div class="card-body" style="height: 200px; width: 250px">
+                                <i class="fa-solid fa-laptop-code"></i>
+                                <h5>Object-Oriented Programming</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3 mb-4">
+                        <div class="custom-card card border">
+                            <div class="card-body" style="height: 200px; width: 250px">
+                                <i class="fa-solid fa-database"></i>
+                                <h5>Database Management Systems</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3 mb-4">
+                        <div class="custom-card card border">
+                            <div class="card-body" style="height: 200px; width: 250px">
+                                <i class="fa-brands fa-ubuntu"></i>
+                                <h5>Operating Systems</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-4">
+                <h4 style="color: #ff7a57;">Programming Languages</h4>
+                <div class="row mt-3">
+                    <div class="col-sm-6 col-md-3 mb-4">
+                        <div class="custom-card card border">
+                            <div class="card-body" style="height: 200px; width: 250px">
+                                <i class="fa-brands fa-python"></i>
+                                <h5>Python</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3 mb-4">
+                        <div class="custom-card card border">
+                            <div class="card-body" style="height: 200px; width: 250px">
+                                <i class="fa-brands fa-js"></i>
+                                <h5>JavaScript</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3 mb-4">
+                        <div class="custom-card card border">
+                            <div class="card-body" style="height: 200px; width: 250px">
+                                <i class="fa-solid fa-c"></i>
+                                <h5>C#, C</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3 mb-4">
+                        <div class="custom-card card border">
+                            <div class="card-body" style="height: 200px; width: 250px">
+                                <i class="fa-solid fa-s"></i>
+                                <h5>SQL</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-4">
+                <h4 style="color: #ff7a57;">Machine Learning</h4>
+                <div class="row mt-3">
+                    <div class="col-sm-6 col-md-3 mb-4">
+                        <div class="custom-card card border">
+                            <div class="card-body" style="height: 200px; width: 250px">
+                                <i class="fa-solid fa-p"></i>
+                                <h5>Pandas</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3 mb-4">
+                        <div class="custom-card card border">
+                            <div class="card-body" style="height: 200px; width: 250px">
+                                <i class="fa-solid fa-n"></i>
+                                <h5>NumPy</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3 mb-4">
+                        <div class="custom-card card border">
+                            <div class="card-body" style="height: 200px; width: 250px">
+                                <i class="fa-solid fa-chart-line"></i>
+                                <h5>Matlotlib</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3 mb-4">
+                        <div class="custom-card card border">
+                            <div class="card-body" style="height: 200px; width: 250px">
+                                <i class="fa-brands fa-leanpub"></i>
+                                <h5>Scikit-learn</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-4">
+                <h4 style="color: #ff7a57;">Web Developement</h4>
+                <div class="row mt-3">
+                    <div class="col-sm-6 col-md-3 mb-4">
+                        <div class="custom-card card border">
+                            <div class="card-body" style="height: 200px; width: 250px">
+                                <i class="fa-brands fa-python"></i>
+                                <h5>Flask, Django</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3 mb-4">
+                        <div class="custom-card card border">
+                            <div class="card-body" style="height: 200px; width: 250px">
+                                <i class="fa-solid fa-globe"></i>
+                                <h5>ASP.NET Core</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3 mb-4">
+                        <div class="custom-card card border">
+                            <div class="card-body" style="height: 200px; width: 250px">
+                                <i class="fa-brands fa-react"></i>
+                                <h5>React</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3 mb-4">
+                        <div class="custom-card card border">
+                            <div class="card-body" style="height: 200px; width: 250px">
+                                <i class="fa-brands fa-node"></i>
+                                <h5>Node</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-4">
+                <h4 style="color: #ff7a57;">Database Management</h4>
+                <div class="row mt-3">
+                    <div class="col-sm-6 col-md-3 mb-4">
+                        <div class="custom-card card border">
+                            <div class="card-body" style="height: 200px; width: 250px">
+                                <i class="fa-solid fa-database"></i>
+                                <h5>PostgreSQL</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3 mb-4">
+                        <div class="custom-card card border">
+                            <div class="card-body" style="height: 200px; width: 250px">
+                                <i class="fa-brands fa-microsoft"></i>
+                                <h5>Microsoft SQL Server</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3 mb-4">
+                        <div class="custom-card card border">
+                            <div class="card-body" style="height: 200px; width: 250px">
+                                <i class="fa-solid fa-database"></i>
+                                <h5>MongoDB</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-4">
+                <h4 style="color: #ff7a57;">Tools</h4>
+                <div class="row mt-3">
+                    <div class="col-sm-6 col-md-3 mb-4">
+                        <div class="custom-card card border">
+                            <div class="card-body" style="height: 200px; width: 250px">
+                                <i class="fa-brands fa-github"></i>
+                                <h5>Git</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3 mb-4">
+                        <div class="custom-card card border">
+                            <div class="card-body" style="height: 200px; width: 250px">
+                                <i class="fa-brands fa-figma"></i>
+                                <h5>Figma</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3 mb-4">
+                        <div class="custom-card card border">
+                            <div class="card-body" style="height: 200px; width: 250px">
+                                <i class="fa-regular fa-newspaper"></i>
+                                <h5>Overleaf</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-4">
+                <h4 style="color: #ff7a57;">Proficiencies</h4>
+                <div class="row mt-3">
+                    <div class="col-sm-6 col-md-3 mb-4">
+                        <div class="custom-card card border">
+                            <div class="card-body" style="height: 200px; width: 250px">
+                                <i class="fa-solid fa-stopwatch"></i>
+                                <h5>Time Management</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3 mb-4">
+                        <div class="custom-card card border">
+                            <div class="card-body" style="height: 200px; width: 250px">
+                                <i class="fa-solid fa-people-group"></i>
+                                <h5>Teamwork</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3 mb-4">
+                        <div class="custom-card card border">
+                            <div class="card-body" style="height: 200px; width: 250px">
+                                <i class="fa-solid fa-person-chalkboard"></i>
+                                <h5>Presentation skills</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3 mb-4">
+                        <div class="custom-card card border">
+                            <div class="card-body" style="height: 200px; width: 250px">
+                                <i class="fa-solid fa-brain"></i>
+                                <h5>Problem Solving</h5>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of Sectoin -->
+
+    <section id="publications" class="section">
+        <div class="container text-center">
+            <h6 class="subtitle">Publications</h6>
+            <h6 class="section-title mb-4">Published & Proceedings</h6>
+
+            <div class="row text-center text-md-left">
+                <div class="col-md-2">
+                    <img src="assets/imgs/ieee.png" alt="" class="img-thumbnail mb-4"
+                        style="height: 100px; width: 150px">
+                    <div>
+                        <p><i class="fa-solid fa-location-dot"></i> Istanbul, Turkey</p>
+                        <p><i class="fa-solid fa-calendar-days"></i> June 8 - 10, 2023</p>
+                        <p><i class="fa-solid fa-globe"></i> IEEE</p>
+                    </div>
+                </div>
+                <div class="pl-md-4 col-md-10">
+                    <h6 class="title">Implementation of Bangla Extractive Update Summarization Task on
+                        BUSUM-BNLP-Dataset: A Multi-Document Update Summarization Corpus</h6>
+                    <p class="subtitle"><i style="color: #ff7a57;">Published at </i>5<sup>th</sup> International
+                        Congress on Human-Computer Interaction, Optimization and Robotic Applications</p>
+                    <p>
+                        The research inspires automated multi-document update summarization to perform a more complete
+                        linguistic (semantic) assessment of Bangla newspaper articles, research articles, or multiple
+                        texts by selecting the most essential ideas. Automated update summarizer methods are critical in
+                        identifying relevant information and up-to-date material for the user, minimizing the amount of
+                        time and effort necessary to read an entire article or many articles on a similar topic. Many
+                        updated summary approaches have been developed and implemented in the English language, while
+                        updated summarization in Bengali remains restricted. Keeping this in mind, we want to devise a
+                        straightforward method for developing a Bengali automatic updated summary task. To collaborate
+                        on this research, we proposed BUSUM-BNLP, a multi-document updated summarization Bangla dataset
+                        that is divided into six categories: international, sports, politics, entertainment, Bangladesh,
+                        and business. Each article has been divided into two groups, A and B. Essentially, every pair of
+                        A and B has five news article files, each with a title, date-time, and pertinent news content.
+                        Similarly, for each set of documents, we developed three human-written summaries.
+                    </p>
+                    <p>To generate a quality dataset, we reviewed 1,000 Bangla news articles from major newspaper
+                        e-platforms (Prothom Alo, Jugantor, Kaler Kantho, BBC Bangla) and researched certain Bangla
+                        language and summarizing norms. Since there are two kinds of summarization methods: extractive
+                        and abstractive. In this paper, we created a TF-IDF-based model and used a pre-trained
+                        SentenceRank to obtain an updated Bengali summarization model. We tested these two models using
+                        our BUSUM-BNLP dataset, and the experienced TF-IDF model outperformed the pre-trained
+                        SenteneRank model. <br>
+                        <a style="text-decoration: none; color: green" target=”_blank”
+                            href="https://ieeexplore.ieee.org/document/10156794?fbclid=IwAR2AupadiZxsOia2IcRyA5EJssJ7PYxUtExf9URulPAcMZB6GUi5MD940Zc">see
+                            publication>></a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="row text-center text-md-left my-5">
+                <div class="col-md-2">
+                    <img src="assets/imgs/ieee.png" alt="" class="img-thumbnail mb-4"
+                        style="height: 100px; width: 150px">
+                    <div>
+                        <p><i class="fa-solid fa-location-dot"></i> Istanbul, Turkey</p>
+                        <p><i class="fa-solid fa-calendar-days"></i> June 8 - 10, 2023</p>
+                        <p><i class="fa-solid fa-globe"></i> IEEE</p>
+                    </div>
+                </div>
+                <div class="pl-md-4 col-md-10">
+                    <h6 class="title">Enhancing Performance of Abstractive Multi-Document Update Summarization on TAC
+                        Dataset</h6>
+                    <p class="subtitle"><i style="color: #ff7a57;">Published at </i>5<sup>th</sup> International
+                        Congress on Human-Computer Interaction, Optimization and Robotic Applications</p>
+                    <p>
+                        In this paper, we investigate the efficacy of various cutting-edge models for update
+                        summarization on the TAC 2009 dataset. To construct abstractive and extractive summaries of news
+                        items, we use the T5 Transformer model and Textrank + Pegasus model. Our goal is to assess how
+                        well these models capture key information from updates and generate coherent and useful
+                        summaries.
+                    </p>
+                    <p>Here we use conventional assessment measures such as ROUGE to assess the performance of the
+                        models. We analyze the fluency, coherence, and informativeness of generated summaries from the
+                        T5 Transformer model, Textrank + Pegasus, and TensorFlow models against human-authored gold
+                        summaries. <br>
+                        <a style="text-decoration: none; color: green" target=”_blank”
+                            href="https://ieeexplore.ieee.org/document/10156657/metrics#metrics">see publication>></a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="row text-center text-md-left">
+                <div class="col-md-2">
+                    <img src="assets/imgs/springer.png" alt="" class="img-thumbnail mb-4"
+                        style="height: 100px; width: 150px">
+                    <div>
+                        <p><i class="fa-solid fa-location-dot"></i> Noakhali, Bangladesh</p>
+                        <p><i class="fa-solid fa-calendar-days"></i> September 23 - 25, 2022</p>
+                        <p><i class="fa-solid fa-globe"></i> Springer</p>
+                    </div>
+                </div>
+                <div class="pl-md-4 col-md-10">
+                    <h6 class="title">Trade-Offs of Improper E-waste Recycling: An Empirical Study</h6>
+                    <p class="subtitle"><i style="color: #ff7a57;">Published at </i>International Conference on Machine
+                        Intelligence and Emerging Technologies (MIET 2022)</p>
+                    <p>
+                        The term “E-waste” refers to any electronic equipment that has been abandoned and discarded or
+                        reached the end of its service life. As electronics is one of the largest growing industrial
+                        sectors, the recycling of E-wastes has evolved into a serious global issue. E-waste contains
+                        both metals and chemicals. A growing country like Bangladesh is now estimated to create 2.8
+                        million tons of E-waste every year. Around 15–25% of it gets recycled, while the remaining end
+                        up in open soil, farmland, and water. Many hazardous elements from improper E-waste disposal can
+                        cause health diseases for workers and their families like breathing problems, skin infections,
+                        and stomach problems. Also, improper disposal of E-waste can harm the environment and have a
+                        negative impact on our climate. In this paper, we analyze the environmental effects and health
+                        issues of electronic waste.
+                    </p>
+                    <p>We found that there is a significant lack of understanding on how to reuse, rescale, and
+                        refurbish electronic equipment. People everywhere may avoid health and environmental problems by
+                        managing E-waste effectively, collecting E-waste properly, and raising awareness about the
+                        dangers of improper e-waste disposal can save people all over the world from challenges. <br>
+                        <a style="text-decoration: none; color: green" target=”_blank”
+                            href="https://link.springer.com/chapter/10.1007/978-3-031-34622-4_56">see publication>></a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- End of Skills sections -->
+
+
+    <section id="rp" class="section">
+        <div class="container text-center my-3">
+            <h6 class="subtitle">Research and Projects</h6>
+            <h6 class="section-title mb-4">Explore my research work and projects</h6>
+
+            <!-- Current Research Area -->
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="rp-item">
+                        <h3 class="rp-title" style="color: #ff7a57;">Current Research Area</h3>
+
+                        <ul class="research-icons list-unstyled d-flex justify-content-between mt-3">
+                            <li>
+                                <span class="icon"><i class="fas fa-cogs"></i></span>
+                                Software Development
+                            </li>
+                            <li>
+                                <span class="icon"><i class="fas fa-layer-group"></i></span>
+                                Software Architecture
+                            </li>
+                            <li>
+                                <span class="icon"><i class="fas fa-lightbulb"></i></span>
+                                Artificial Intelligence
+                            </li>
+                            <li>
+                                <span class="icon"><i class="fas fa-robot"></i></span>
+                                Machine Learning
+                            </li>
+                        </ul>
+                        <ul class="research-icons list-unstyled d-flex justify-content-between">
+                            <li>
+                                <span class="icon"><i class="fas fa-language"></i></span>
+                                NLP(Natural Language Processing)
+                            </li>
+                            <li>
+                                <span class="icon"><i class="fas fa-chart-line"></i></span>
+                                Data Science
+                            </li>
+                            <li>
+                                <span class="icon"><i class="fas fa-network-wired"></i></span>
+                                API (Application Programming Interface)
+                            </li>
+
+                        </ul>
+                        <p class="rp-description">
+                            In my continuing research, I am involved in the dynamic convergence of Software Development,
+                            Software Architecture, APIs, Machine Learning (ML), Artificial Intelligence (AI), and Data
+                            Science. My current emphasis is on developing unique methods to software architecture that
+                            smoothly integrate AI and ML components via well-designed APIs. I am expanding our knowledge
+                            of how these technologies may be used to construct more intelligent, flexible, and efficient
+                            software systems through rigorous testing. <br> <br> This research path demonstrates my
+                            dedication to encouraging innovation at the intersection of AI-driven insights and software
+                            engineering methods. As I go more into this sector, my goal is to make a significant
+                            contribution to the evolution of software development paradigms, pushing breakthroughs that
+                            benefit industries and users alike.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Previous Research -->
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="rp-item">
+                        <h3 class="rp-title" style="color: #ff7a57;">Previous Research Fields</h3>
+                        <ul class="research-icons list-unstyled d-flex justify-content-between mt-3">
+                            <li>
+                                <span class="icon"><i class="fas fa-robot"></i></span>
+                                Machine Learning
+                            </li>
+                            <li>
+                                <span class="icon"><i class="fas fa-chart-line"></i></span>
+                                Data Science
+                            </li>
+                            <li>
+                                <span class="icon"><i class="fas fa-lightbulb"></i></span>
+                                Artificial Intelligence
+                            </li>
+                            <li>
+                                <span class="icon"><i class="fas fa-language"></i></span>
+                                NLP
+                            </li>
+                        </ul>
+                        <p class="rp-description">
+                            I have extensive experience in Natural Language Processing (NLP), Machine Learning (ML),
+                            Artificial Intelligence (AI), and Data Science. My work collection covers a number of
+                            significant projects that use cutting-edge approaches to solve hard challenges in text
+                            analysis, semantic comprehension, and predictive modeling. In addition to my practical work,
+                            I have effectively contributed to academic debate by publishing research articles. My study
+                            investigates novel techniques to improving language models, optimizing data-driven
+                            decision-making, and broadening the applications of AI-powered technology.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <h5 class="mt-4" style="color: #ff7a57;">Projects</h5>
+            <!-- Project 1 -->
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="rp-item">
+                        <h3 class="rp-title">Project Title 1</h3>
+                        <p class="rp-description">
+                            A description of your project. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        </p>
+                        <p><b>Stack:</b> sdfdsf</p>
+                        <div class="rp-time">
+                            <p style="font-size: 12px;">
+                                <i class="far fa-clock"></i> Time: July 2023
+                            </p>
+                            <a href="https://github.com/your-github-repo-link" target="_blank">->github repository</a>
+                        </div>
+                        <div id="project-carousel" class="carousel slide mt-2" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="https://scontent.fdac138-1.fna.fbcdn.net/v/t39.30808-6/311214025_1838142833186195_3753235570112271548_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=300f58&_nc_ohc=ISwJ_mFX6noAX9_SvNX&_nc_ht=scontent.fdac138-1.fna&oh=00_AfBuhCrlRxDgZBGuMHWU5nupxZpliXw2ksb2jGmeD_APrQ&oe=64E01738"
+                                        class="d-block w-100" alt="Project 1 Image 1">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="https://scontent.fdac138-1.fna.fbcdn.net/v/t39.30808-6/311214025_1838142833186195_3753235570112271548_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=300f58&_nc_ohc=ISwJ_mFX6noAX9_SvNX&_nc_ht=scontent.fdac138-1.fna&oh=00_AfBuhCrlRxDgZBGuMHWU5nupxZpliXw2ksb2jGmeD_APrQ&oe=64E01738"
+                                        class="d-block w-100" alt="Project 1 Image 1">
+                                </div>
+                                <!-- Add more carousel items for additional images -->
+                            </div>
+                            <a class="carousel-control-prev" href="#project-carousel" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#project-carousel" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="rp-item">
+                        <h3 class="rp-title">Project Title 1</h3>
+                        <p class="rp-description">
+                            A description of your project. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        </p>
+                        <p><b>Stack:</b> sdfdsf</p>
+                        <div class="rp-time">
+                            <p style="font-size: 12px;">
+                                <i class="far fa-clock"></i> Time: July 2023
+                            </p>
+                            <a href="https://github.com/your-github-repo-link" target="_blank">->github repository</a>
+                        </div>
+                        <div id="project-carousel" class="carousel slide mt-2" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="https://scontent.fdac138-1.fna.fbcdn.net/v/t39.30808-6/311214025_1838142833186195_3753235570112271548_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=300f58&_nc_ohc=ISwJ_mFX6noAX9_SvNX&_nc_ht=scontent.fdac138-1.fna&oh=00_AfBuhCrlRxDgZBGuMHWU5nupxZpliXw2ksb2jGmeD_APrQ&oe=64E01738"
+                                        class="d-block w-100" alt="Project 1 Image 1">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="https://scontent.fdac138-1.fna.fbcdn.net/v/t39.30808-6/311214025_1838142833186195_3753235570112271548_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=300f58&_nc_ohc=ISwJ_mFX6noAX9_SvNX&_nc_ht=scontent.fdac138-1.fna&oh=00_AfBuhCrlRxDgZBGuMHWU5nupxZpliXw2ksb2jGmeD_APrQ&oe=64E01738"
+                                        class="d-block w-100" alt="Project 1 Image 1">
+                                </div>
+                                <!-- Add more carousel items for additional images -->
+                            </div>
+                            <a class="carousel-control-prev" href="#project-carousel" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#project-carousel" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="container">
+            <div class="card bg-primary">
+                <div class="card-body text-light">
+                    <div class="row align-items-center">
+                        <div class="col-sm-9 text-center text-sm-left">
+                            <h4 style="color: #333;" class="mt-3">Feel free to ask!</h4>
+                            <p class="mb-3">I'm ready to contribute my expertise in NLP, ML, AI, Data Science, Software
+                                Development, and Architecture to a variety of projects.</p>
+                        </div>
+                        <div class="col-sm-3 text-center text-sm-right">
+                            <button class="btn btn-light rounded">Contact me<b>!</b></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- End of testmonial section -->
+
+    <!-- Certificate Section -->
+    <!-- <section id="certficates" class="section">
+        <div class="container text-center">
+            <h6 class="subtitle">Certificates</h6>
+            <p class="mb-5 pb-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum hic placeat unde amet et eos maxime repellendus sint! Distinctio, officia!</p>
+
+            <div class="row">
+                <div class="img-wrapper">
+                    <img width="80vh" src="assets/imgs/folio-1.jpg" alt="">
+                    <div class="overlay">
+                        <div class="overlay-infos">
+                            <h5>Project Title</h5>
+                            <div>
+                                <a style="color: black; text-decoration: none" href="#">see more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section> -->
+    <!-- <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const imgWrapper = document.querySelector('.img-wrapper');
+            const imgContainer = document.querySelector('.img-container');
+            const zoomInButton = document.getElementById('zoomButton');
+            let zoomed = false; // Track the zoom state
+    
+            function toggleZoom() {
+                if (!zoomed) {
+                    imgContainer.innerHTML = '<img src="' + imgWrapper.querySelector('img').src + '" alt="">';
+                    imgContainer.classList.add('zoomed');
+                } else {
+                    imgContainer.classList.remove('zoomed');
+                }
+                zoomed = !zoomed; // Toggle the zoom state
+            }
+    
+            zoomInButton.addEventListener('click', toggleZoom);
+    
+            // Add event listener to the document to toggle zoom when clicked anywhere
+            document.addEventListener('click', function (event) {
+                if (zoomed && event.target !== imgContainer && event.target !== zoomInButton) {
+                    toggleZoom();
+                }
+            });
+        });
+    </script> -->
+    <!-- <section id="blog" class="section">
+        <div class="container text-center">
+            <h6 class="subtitle">My Blogs</h6>
+            <h6 class="section-title mb-4">Latest News</h6>
+            <p class="mb-5 pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In alias dignissimos. <br>
+                rerum commodi corrupti, temporibus non quam.</p>
+
+            <div class="row text-left">
+                <div class="col-md-4">
+                    <div class="card border mb-4">
+                        <img src="assets/imgs/blog-1.jpg" alt="" class="card-img-top w-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Designe for Everyone</h5>
+                            <div class="post-details">
+                                <a href="javascript:void(0)">Posted By: Admin</a>
+                                <a href="javascript:void(0)"><i class="ti-thumb-up"></i> 456</a>
+                                <a href="javascript:void(0)"><i class="ti-comment"></i> 123</a>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut ad vel dolorum, iusto velit,
+                                minima? Voluptas nemo harum impedit nisi.</p>
+                            <a href="javascript:void(0)">Read More..</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card border mb-4">
+                        <img src="assets/imgs/blog-2.jpg" alt="" class="card-img-top w-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Web Layouts</h5>
+                            <div class="post-details">
+                                <a href="javascript:void(0)">Posted By: Admin</a>
+                                <a href="javascript:void(0)"><i class="ti-thumb-up"></i> 456</a>
+                                <a href="javascript:void(0)"><i class="ti-comment"></i> 123</a>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut ad vel dolorum, iusto velit,
+                                minima? Voluptas nemo harum impedit nisi.</p>
+                            <a href="javascript:void(0)">Read More..</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card border mb-4">
+                        <img src="assets/imgs/blog-3.jpg" alt="" class="card-img-top w-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Bootstrap Framework</h5>
+                            <div class="post-details">
+                                <a href="javascript:void(0)">Posted By: Admin</a>
+                                <a href="javascript:void(0)"><i class="ti-thumb-up"></i> 456</a>
+                                <a href="javascript:void(0)"><i class="ti-comment"></i> 123</a>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut ad vel dolorum, iusto velit,
+                                minima? Voluptas nemo harum impedit nisi.</p>
+                            <a href="javascript:void(0)">Read More..</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+
+    <!-- End od Hire me section. -->
+
+
+
+    <!-- Blog Post Section -->
+    <section id="blog" class="position-relative section">
+        <div class="container text-center">
+            <h6 class="subtitle">Blogs</h6>
+            <h6 class="section-title mb-4">You can see my personal and research blogs below.</h6>
+        </div>
+        <div class="container">
+
+            <div class="blog-post my-3">
+                <div class="blog-post-header">
+                    <h2 class="blog-post-title">
+                        <span style="color: #3498db;">Certificate: </span>Paper Presentation Certificate (HORA2023)
+                    </h2>
+                    <div class="blog-post-meta mt-2">
+                        <span class="meta-item">
+                            <i class="far fa-clock logo-icon"></i>Jun 10, 2023
+                        </span>
+                        <span class="meta-item">
+                            <i class="fas fa-map-marker-alt logo-icon"></i>Istanbul, Turkey
+                        </span>
+                    </div>
+                </div>
+                <div class="blog-post-caption">
+                    Celebrating the receipt of another certificate for presenting my paper: "Implementation of Bangla
+                    Extractive Update Summarization Task on BUSUM-BNLP-Dataset: A Multi-Document Update Summarization
+                    Corpus" at the conference! <br> Grateful for the acknowledgment of our research endeavors and
+                    excited to contribute to the evolution of summarization techniques. <br> <br> #ConferenceAchievement
+                    #ResearchRecognition #SummarizationInnovation #BUSUMDatasetJourney
+                </div>
+                <div>
+
+                    <img style="width: 100%; height: 50%" src="assets/imgs/hora-ban.png" alt="Blog Post Image">
+                </div>
+            </div>
+
+            <div class="blog-post my-3">
+                <div class="blog-post-header">
+                    <h2 class="blog-post-title">
+                        <span style="color: #3498db;">Certificate: </span>Paper Presentation Certificate (HORA2023)
+                    </h2>
+                    <div class="blog-post-meta mt-2">
+                        <span class="meta-item">
+                            <i class="far fa-clock logo-icon"></i>Jun 9, 2023
+                        </span>
+                        <span class="meta-item">
+                            <i class="fas fa-map-marker-alt logo-icon"></i>Istanbul, Turkey
+                        </span>
+                    </div>
+                </div>
+                <div class="blog-post-caption">
+                    An esteemed certificate in hand, commemorating my presentation on "Enhancing Performance of
+                    Abstractive Multi-Document Update Summarization on TAC Dataset" at the conference! <br>Gratitude for
+                    the recognition of our research efforts and enthusiasm for the journey of refining summarization
+                    techniques. Excited to continue pushing the boundaries of knowledge and innovation!
+                </div>
+                <div>
+
+                    <img style="width: 100%; height: 50%" src="assets/imgs/hora-eng.png" alt="Blog Post Image">
+                </div>
+            </div>
+
+            <div class="blog-post my-3">
+                <div class="blog-post-header">
+                    <h2 class="blog-post-title">
+                        <span style="color: #3498db;">Office: </span>Orientation Program
+                    </h2>
+                    <div class="blog-post-meta mt-2">
+                        <span class="meta-item">
+                            <i class="far fa-clock logo-icon"></i>May 24, 2023
+                        </span>
+                        <span class="meta-item">
+                            <i class="fas fa-map-marker-alt logo-icon"></i>BdJobs.Com Ltd, Dhaka, Bangladesh
+                        </span>
+                    </div>
+                </div>
+                <div class="blog-post-caption">
+                    Capturing the moment during the office orientation program alongside the visionary CEO and fellow
+                    trainee software engineers as I begin my work as a Trainee Software Engineer at BdJobs.com Limited!
+                    Prepare to drink up information, network with bright minds, and go on an extraordinary education
+                    trip in the world of technology. Here's to new beginnings and limitless possibilities!
+                </div>
+                <div>
+                    <img style="width: 100%; height: 50%" src="assets/imgs/bdj.jpg" alt="Blog Post Image">
+                </div>
+            </div>
+
+
+
+            <div class="blog-post my-3">
+                <div class="blog-post-header">
+                    <h2 class="blog-post-title">
+                        <span style="color: #3498db;">Certificate: </span>Project Presentation Certificate
+                    </h2>
+                    <div class="blog-post-meta mt-2">
+                        <span class="meta-item">
+                            <i class="far fa-clock logo-icon"></i>April 08, 2023
+                        </span>
+                        <span class="meta-item">
+                            <i class="fas fa-map-marker-alt logo-icon"></i>East West University, Dhaka, Bangladesh
+                        </span>
+                    </div>
+                </div>
+                <div class="blog-post-caption">
+                    An emblem of hard work and dedication – the certificate for my capstone project presentation. Each
+                    achievement fuels my passion for knowledge and innovation. Grateful for the recognition and excited
+                    for the future endeavors awaiting!
+                </div>
+                <div>
+
+                    <img style="width: 100%; height: 50%" src="" alt="Blog Post Image">
+                </div>
+            </div>
+
+
+            <!-- Second Blog Post -->
+            <div class="blog-post my-3">
+                <div class="blog-post-header">
+                    <h2 class="blog-post-title">
+                        <span style="color: #3498db;">Capstone:</span> Capstone Project Showcasing Ceremony and Job Fair
+                    </h2>
+                    <div class="blog-post-meta mt-2">
+                        <span class="meta-item">
+                            <i class="far fa-clock logo-icon"></i>April 08, 2023
+                        </span>
+                        <span class="meta-item">
+                            <i class="fas fa-map-marker-alt logo-icon"></i>East West University, Dhaka, Bangladesh
+                        </span>
+                    </div>
+                </div>
+                <div class="blog-post-caption">
+                    💼🎓 Proud to present my capstone project at the Capstone Project Showcasing Ceremony and Job Fair!
+                    🚀📊 Exciting to share my innovation and skills with potential employers and fellow enthusiasts.
+                    Here's to new opportunities and future collaborations! <br> <br>#CapstoneShowcase #JobFair
+                    #Innovation #CareerJourney
+                </div>
+                <div class="blog-post-gallery">
+
+                    <img src="assets/imgs/cap-1.jpg" alt="Blog Post Image">
+                    <img src="assets/imgs/cap-2.jpg" alt="Blog Post Image">
+                </div>
+            </div>
+
+
+
+            <div class="blog-post my-3">
+                <div class="blog-post-header">
+                    <h2 class="blog-post-title">
+                        <span style="color: #3498db;">Defence: </span>Capstone Defence Presentation
+                    </h2>
+                    <div class="blog-post-meta mt-2">
+                        <span class="meta-item">
+                            <i class="far fa-clock logo-icon"></i>March 16, 2023
+                        </span>
+                        <span class="meta-item">
+                            <i class="fas fa-map-marker-alt logo-icon"></i>East West University, Dhaka, Bangladesh
+                        </span>
+                    </div>
+                </div>
+                <div class="blog-post-caption">
+                    🎓 Wrapped up an incredible journey with my capstone defense presentation on "Designing and
+                    developing an automated update summarization system". 🤖📚 Grateful for the opportunity to showcase
+                    my hard work and innovative ideas. Excited to contribute to the world of technology and information
+                    processing! <br><br>🌐📊 #CapstoneDefense #Innovation #Technology #SummarizationSystem
+                </div>
+                <div>
+
+                    <img style="width: 100%; height: 50%" src="assets/imgs/def.jpg" alt="Blog Post Image">
+                </div>
+            </div>
+            <div class="blog-post my-3">
+                <div class="blog-post-header">
+                    <h2 class="blog-post-title">
+                        <span style="color: #3498db;">Best Paper Award: </span>International Conference on Machine
+                        Intelligence and Emerging Technologies (MIET 2022)
+                    </h2>
+                    <div class="blog-post-meta mt-2">
+                        <span class="meta-item">
+                            <i class="far fa-clock logo-icon"></i>September 22, 2022
+                        </span>
+                        <span class="meta-item">
+                            <i class="fas fa-map-marker-alt logo-icon"></i>Noakhali, Bangladesh
+                        </span>
+                    </div>
+                </div>
+                <div class="blog-post-caption">
+                    Honored to receive the Best Paper Award at MIET 2022 for our research on "Trade-offs of Improper
+                    E-waste Recycling: An Empirical Study". Grateful for the recognition of our efforts in addressing
+                    this critical environmental issue. <br> <br> 🌍🔌 #MIET2022 #BestPaperAward #EwasteRecycling
+                    #EnvironmentalResearch
+                </div>
+                <div>
+
+                    <img style="width: 100%; height: 50%" src="assets/imgs/miet.png" alt="Blog Post Image">
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="position-relative section">
+        <div class="container text-center">
+            <h6 class="subtitle">Contact</h6>
+            <h6 class="section-title mb-4">Get In Touch With Me</h6>
+
+
+            <div class="contact text-left">
+                <div class="form">
+                    <h6 class="subtitle">Available 24/7</h6>
+                    <h6 class="section-title mb-4">Get In Touch</h6>
+                    <form>
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="Enter email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" id="exampleInputPassword1"
+                                placeholder="Password" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="contact-message" id="" cols="30" rows="5" class="form-control"
+                                placeholder="Message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block rounded w-lg">Send Message</button>
+                    </form>
+                </div>
+                <div class="contact-infos">
+                    <div class="item">
+                        <i class="ti-location-pin"></i>
+                        <div class="">
+                            <h5>Panthapath</h5>
+                            <p>Dhaka, Bangladesh</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <i class="ti-mobile"></i>
+                        <div>
+                            <h5>Phone Number</h5>
+                            <p>(+880) 1521116118</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <i class="ti-email"></i>
+                        <div class="mb-0">
+                            <h5>Email Address</h5>
+                            <p>nahidhasanashiq@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- End of Contact Section -->
+
+
+
+
+
+
+    <footer class="page-footer" style="background-color: #333; color: #fff;">
+        <div class="container">
+            <div class="row">
+                <!-- Contact Details -->
+                <div class="col-sm-4 mt-5">
+                    <h5>Contact Details</h5>
+                    <p><i class="ti-mobile"></i> Phone: (+880) 1521116118</p>
+                    <p><i class="ti-email"></i> Email: nahidhasanashiq@gmail.com</p>
+                    <p><i class="ti-location-pin"></i> Address: Panthapath, Dhaka, Bangladesh</p>
+                </div>
+
+                <!-- Social Media Links -->
+                <div class="col-sm-8 text-right mt-5">
+                    <div class="socials">
+                        <a class="social-item" href="https://www.facebook.com/NHashiq18/" target="_blank"
+                            style="color: #fff; font-size: 24px; margin-right: 10px; transition: color 0.3s ease;"><i
+                                class="ti-facebook"></i></a>
+                        <a class="social-item" href="#" target="_blank"
+                            style="color: #fff; font-size: 24px; margin-right: 10px; transition: color 0.3s ease;"><i
+                                class="ti-google"></i></a>
+                        <a class="social-item" href="https://github.com/" target="_blank"
+                            style="color: #fff; font-size: 24px; margin-right: 10px; transition: color 0.3s ease;"><i
+                                class="ti-github"></i></a>
+                        <a class="social-item" href="https://twitter.com/nhashiq18" target="_blank"
+                            style="color: #fff; font-size: 24px; margin-right: 10px; transition: color 0.3s ease;"><i
+                                class="ti-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-12 text-center mt-5">
+                    <p style="font-size: 16px; margin-top: 10px;"><i class="fa-solid fa-pen-nib"></i> All creative
+                        rights secured by ©nhashiq18</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- End of page footer -->
+
+    <!-- core  -->
+    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+    <!-- bootstrap 3 affix -->
+    <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+
+    <!-- steller js -->
+    <script src="assets/js/steller.js"></script>
+
+</body>
+
+</html>
